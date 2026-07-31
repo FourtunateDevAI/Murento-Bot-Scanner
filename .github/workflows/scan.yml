@@ -1,13 +1,7 @@
 name: Murento AI Trader Scanner
-permissions:
-  contents: write
-  name: Murento AI Trader Scanner
 
 permissions:
   contents: write
-
-on:
-  schedule:
 
 on:
   schedule:
