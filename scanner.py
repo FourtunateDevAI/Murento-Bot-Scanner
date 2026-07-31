@@ -339,7 +339,7 @@ def build_alert_message(pair_label, s):
         f"Bias: {s['bias']}\n"
         f"POI Type: {s['poi']['tf']} zone @ {fmt(s['poi']['price'])}\n"
         f"Rejection: Confirmed on {s['confirm_tf']}\n"
-        f"MSS: {'Confirmed on ' + s['entry_tf'] + ' \u2014 order block entry' if s['mss_hit'] else 'Not yet confirmed'}\n"
+        f"MSS: {'Confirmed on ' + s['entry_tf'] + ' — order block entry' if s['mss_hit'] else 'Not yet confirmed'}\n"
         f"Trade Type: {'BUY' if s['bias']=='Bullish' else 'SELL'} LIMIT\n"
         f"Entry: {fmt(s['entry'])}\n"
         f"Stop Loss: {fmt(s['sl'])}\n"
